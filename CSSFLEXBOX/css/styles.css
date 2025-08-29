@@ -1,0 +1,119 @@
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    background-color: #ffff;
+    font-family: Edu NSW ACT Cursive;
+    @media (max-width: 500px) {
+    }
+}
+.container{
+    width: 100%;
+    margin: 0 auto;
+    max-width: 1100px;
+    padding: 0 16px;
+    
+    
+}
+#nav{
+    height: 80px;
+    width: 100%;
+    background-color: rgba(13, 224, 224, 0.822);
+    color: rgb(190, 164, 14);
+}
+#nav .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    
+}
+#nav .logo a{
+    text-decoration: none;
+    color: inherit;
+
+
+}
+
+
+#nav ul{
+    display: flex;
+    list-style-type: none;
+    
+}
+#nav ul li{
+    display: inline-block;
+    margin-left: 30px;
+    
+}
+#nav ul li a{
+    text-decoration: none;
+    color: inherit; /* Optional: makes link color match parent */
+    
+}
+
+#nav ul li:hover{
+    background-color:rgba(20, 184, 184, 0.822);
+    border-radius: 5px;
+    padding: 3px;
+
+}
+#hero{
+   background-color: rgba(18, 110, 110, 0.959);
+    color: rgb(190, 164, 14);
+}
+
+
+#hero .container{
+    display: flex;
+    
+   
+    gap: 32px;
+}
+#hero .container .herocontent{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  
+   
+}
+
+#hero .heroimage img {
+    height: 400px;
+    width: 350px;
+    border-radius: 10px;
+
+}
+#lastpart .container{
+    display: flex;
+    color: rgb(190, 164, 14);
+    margin-top: 50px;
+    justify-content: space-between;
+    align-items: center;
+    
+    gap: 16px;
+
+}
+#lastpart .fbox{
+    background-color: rgb(53, 212, 159);
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+#lastpart .sbox{
+    background-color: rgb(53, 212, 159);
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+}
+#lastpart .tbox{
+    background-color: rgb(53, 212, 159);
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+}
